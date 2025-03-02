@@ -2,8 +2,9 @@
   "name": "fried-backend",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
     "url": "https://github.com/ritikgupta06/fried-backend/issues"
   },
   "homepage": "https://github.com/ritikgupta06/fried-backend#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
 }
