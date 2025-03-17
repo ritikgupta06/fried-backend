@@ -2,7 +2,9 @@ import express from "express";
 import connectDB from "./db/index.js"; // Import DB connection
 import dotenv from "dotenv";
 
-dotenv.config(); // Load environment variables
+dotenv.config({
+  path: "./env",
+}); // Load environment variables
 
 const app = express();
 
